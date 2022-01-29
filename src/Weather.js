@@ -60,6 +60,7 @@ export default function Weather() {
             <img src={icon} alt="weathericon" />
           </li>
         </ul>
+        <p>< a href="https://priceless-blackwell-9ed501.netlify.app/">coded</a> by Anna Kwiatkowska</p>
       </div>
     );
   } else {
