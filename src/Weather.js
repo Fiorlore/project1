@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./App.css";
 
 
 export default function Weather() {
@@ -60,7 +61,7 @@ export default function Weather() {
             <img src={icon} alt="weathericon" />
           </li>
         </ul>
-        <p>< a href="https://priceless-blackwell-9ed501.netlify.app/">coded</a> by Anna Kwiatkowska</p>
+        <p className="link">< a href="https://priceless-blackwell-9ed501.netlify.app/">coded</a> by Anna Kwiatkowska</p>
       </div>
     );
   } else {
