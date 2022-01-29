@@ -61,7 +61,7 @@ export default function Weather() {
             <img src={icon} alt="weathericon" />
           </li>
         </ul>
-        <p className="link">< a href="https://github.com/Fiorlore/project1">coded</a> by Anna Kwiatkowska</p>
+        <p className="link">< a href="https://github.com/Fiorlore/project1" target="_blank">coded</a> by Anna Kwiatkowska</p>
       </div>
     );
   } else {
